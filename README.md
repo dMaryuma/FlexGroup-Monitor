@@ -11,11 +11,6 @@ This is Flexgroup monitor using 'netapp_ontap' NetApp python library with REST A
 
 ## Requirements
 python 3.8.0+
-
-## Installation
-```bash
-pip install netapp_ontap
-```
 ```python
 import requests,json
 from netapp_ontap import HostConnection,utils,config
@@ -25,6 +20,12 @@ import statistics
 import sys
 import getopt
 ```
+
+## Installation
+```bash
+pip install netapp_ontap
+```
+
 can obtain from https://pypi.org/project/netapp-ontap/
 
 ## Usage
