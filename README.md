@@ -38,4 +38,6 @@ python ./fg_monitor.py -v fg1 -s svm1 -i 192.168.0.xxx -u admin -p netapp23
 -u | --na_user  
 -p | --na_pass  
 
+## Example output
+![image](https://user-images.githubusercontent.com/68241370/153600353-c8e13a59-5673-4198-aac6-46db044ab8c6.png)
 
