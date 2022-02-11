@@ -16,6 +16,15 @@ python 3.8.0+
 ```bash
 pip install netapp_ontap
 ```
+```python
+import requests,json
+from netapp_ontap import HostConnection,utils,config
+from netapp_ontap.resources import Volume, CLI
+import base64
+import statistics
+import sys
+import getopt
+```
 can obtain from https://pypi.org/project/netapp-ontap/
 
 ## Usage
